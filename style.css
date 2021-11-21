@@ -172,7 +172,13 @@ a:hover {
 
 .box {
 	margin: auto;
+	position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .box {
 	width: 800px;
+	}
 }
 
 .animate {
