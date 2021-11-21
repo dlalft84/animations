@@ -183,10 +183,6 @@ a:hover {
 	}
 }
 
-.box {
-	margin: auto;
-	width: 800px;
-}
 
 .moveAround {
 	animation: moveAround linear 5.5s;
