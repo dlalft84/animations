@@ -243,16 +243,8 @@ a:hover {
 		top: 250px;
 		left: 100px;
 	}
-	25% {
-		top: 575px;
-		left: 100px;
-	}
 	50% {
 		top: 1400px;
-		left: 100px;
-	}
-	75% {
-		top: 575px;
 		left: 100px;
 	}
 	100% {
