@@ -112,8 +112,19 @@ a:hover {
 	}
 }
 
+.cube2 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	top: 0;
+	left: 100px;
+}
+
+
 .cube-mini {
-	position: absolute;
+	position: relative;
 	width: 100px;
 	height: 100px;
 	background-color: #496889;
@@ -125,7 +136,7 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
   .cube-mini {
-	position: absolute;
+	position: relative;
 	width: 50px;
 	height: 50px;
 	background-color: #496889;
@@ -134,28 +145,6 @@ a:hover {
 	top: 25px;
 	left: 25px;
 	}
-}
-
-.cubic {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background-color: #232323;
-	border-radius: 10px;
-	padding: 5px;
-	top: 0px;
-	left: 100px; 
-	z-index: 3;
-}
-
-.cube2 {
-	position: relative;
-	width: 200px;
-	height: 200px;
-	background-color: #ffffff;
-	border-radius: 20px;
-	top: 0;
-	left: 100px;
 }
 
 .cube-mini2 {
@@ -170,15 +159,38 @@ a:hover {
 	box-shadow: 0 0 20px #ffffff;
 }
 
+.cubic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: #232323;
+	border-radius: 10px;
+	padding: 5px;
+	top: 0px;
+	left: 100px; 
+	z-index: 3;
+}
+
 .box {
-	margin: auto;
 	position: relative;
 }
 
 @media only screen and (min-width: 768px) {
   .box {
+	margin: auto;
 	width: 800px;
+	position: relative;
 	}
+}
+
+.box {
+	margin: auto;
+	width: 800px;
+}
+
+.moveAround {
+	animation: moveAround linear 5.5s;
+	animation-iteration-count: infinite;
 }
 
 .animate {
@@ -235,6 +247,7 @@ a:hover {
 	.hide {
 		display: none;
 	}
+	
 }
 
 /*---------------------------------------ANIMATIONS------------------------------------------*/
@@ -372,3 +385,5 @@ a:hover {
 		left: -50px;
 	}
 }
+
+
