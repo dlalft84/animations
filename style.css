@@ -77,7 +77,6 @@ a:hover {
 	border-radius: 20px;
 	padding: 5px;
 	margin: 50px;
-	align-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -179,7 +178,6 @@ a:hover {
   .box {
 	margin: auto;
 	width: 800px;
-	position: relative;
 	}
 }
 
