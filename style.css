@@ -12,6 +12,7 @@ body {
 
 section {
 	padding: 20px;
+	overflow: hidden;
 }
 
 header {
