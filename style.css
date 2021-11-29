@@ -219,7 +219,11 @@ button:focus {
 				inset 8px 8px 8px #1e1e1e;
 	transition: ease 0.2s;
 }
-
+button:target {
+	box-shadow: inset -8px -8px 8px #282828,
+				inset 8px 8px 8px #1e1e1e;
+	transition: ease 0.2s;
+}
 
 
 .moveAround {
