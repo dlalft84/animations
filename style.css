@@ -182,14 +182,14 @@ a:hover {
 }
 
 .neomorph {
-	width: 80%;
+	width: 100%;
 	height: 100%;
 	margin: 10px auto;
 	background-color: #232323;
 	box-shadow: -8px -8px 16px #1e1e1e,
 				8px 8px 16px #282828;
 	border-radius: 30px;
-	padding: 20px;
+	padding: 50px;
 }
 button {
 	width: 20vh;
